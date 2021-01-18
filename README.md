@@ -9,6 +9,7 @@ mvn clean spring-boot:run
 
 #### Use the below connection string to connect to this database from outside
 ```properties
+spring.datasource.driver-class-name=org.h2.Driver
 spring.datasource.url=jdbc:h2:tcp://localhost:9092/mem:test;
 spring.datasource.username=sa
 spring.datasource.password=sa
